@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ontario Street Spots</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=News+Cycle&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Prata&display=swap" rel="stylesheet">
+    <link rel="shortcut icon" type="image/png" href="images/favicon.png">
+</head>
+
+<body>
+
+    <div class="container-background">
+
+        <header>
+            <div class="nav-bar">
+                <img src="images/menu-icon.png" alt="menu-icon" class="menu-icon">
+
+
+                <div class="nav-bar-content">
+                    <nav>
+                        <ul class="navigation">
+                            <a href="index.html">
+                                <li>Home</li>
+                            </a>
+                            <a href="image.html">
+                                <li>View Images</li>
+                            </a>
+                            <a href="submit.html" class="submit-spot">
+                                <li>Submit a Spot</li>
+                            </a>
+
+                        </ul>
+                    </nav>
+                </div>
+            </div>
+
+
+        </header>
+
+
+        <section>
+
+            <div class="contact-container" id="contact">
+                <h2 class="contact-heading">Contact</h2>
+                <div id="status" class="status"></div>
+                <form action="https://formspree.io/f/mjvpelgb" class="contactForm" method="POST" id="my-form">
+                    <input type="text" class="name-input" name="name" value="" placeholder="Name" id="name"> </br>
+                    <input type="email" class="email-input" name="email" value="" placeholder="E-mail" id="email"> </br>
+                    <textarea name="message" class="message-input" placeholder="Message" id="message"></textarea> </br>
+                    <div class="send-button">
+                        <input type="submit" class='email-button' value="Send">
+                    </div>
+                </form>
+            </div>
+
+
+
+        </section>
+    </div>
+
+    <script src="app.js"></script>
+</body>
+
+</html>
